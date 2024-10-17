@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9F37F32-A088-14C8-0B86-86DC79594445" containerWithKeyObject="F5AB1094-D76C-BC13-9C9E-151AB860FB68" localFKIndex="0B2DE41F-A501-9288-5587-1C58A78977A0" name="ALUNO_TURMA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:35 UTC</createdTime>
+<generatorID>B79ADE50-A29D-E057-2229-5F49BA1FD10E</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<referredTableLongName>TURMA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>06555DBE-38C9-2985-A0C4-DEA69D3EA150</referredTableID>
+<keyObject>9BEB4B5E-FA9F-C51B-964E-8D40CC2CCAAF</keyObject>
+<referredKeyID>9BEB4B5E-FA9F-C51B-964E-8D40CC2CCAAF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_turma</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

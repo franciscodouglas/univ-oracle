@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18DA7434-AF95-3C12-32F6-8DD9A9B9C813" name="CURSO_DISCIPLINA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:35 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_curso_disciplina" id="D43E06D9-9225-40B2-7CBB-26DE566EA25F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:25:59 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_id_curso" id="5670E716-A0D4-A1F3-3934-8CFDE7262CE4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:35 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1ED402CE-9ADC-FBEC-79EC-8CF7E39963A8" referredColumn="CC6A1A00-CA3D-9FF7-019A-A8085598F469"/>
+</associations>
+</Column>
+<Column name="DISCIPLINA_id_disciplina" id="144224CF-0BD4-E86B-86B5-9E38D289FD6D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:35 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62412C5E-F77C-1FB1-8305-997096774F21" referredColumn="413A6DE9-C486-A9E5-3BB8-F76FF78C54E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60E6AE7C-35D3-1E49-B05B-53BDD5DFD363" name="CURSO_DISCIPLINA_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:35 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D43E06D9-9225-40B2-7CBB-26DE566EA25F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88D7F021-99CC-3CE1-D8DA-5FE1EECE0447" name="CURSO_DISCIPLINA_CURSO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:35 UTC</createdTime>
+<generatorID>4B2F36C7-5380-D871-9CF4-E4A3D625C7C8</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5670E716-A0D4-A1F3-3934-8CFDE7262CE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9C7B372-39CE-1F4D-7C2F-3344DAA93D05" name="CURSO_DISCIPLINA_DISCIPLINA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:35 UTC</createdTime>
+<generatorID>4B2F36C7-5380-D871-9CF4-E4A3D625C7C8</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="144224CF-0BD4-E86B-86B5-9E38D289FD6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

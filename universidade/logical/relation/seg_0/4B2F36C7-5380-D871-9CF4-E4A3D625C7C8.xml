@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CURSO_DISCIPLINA" directorySegmentName="seg_0" id="4B2F36C7-5380-D871-9CF4-E4A3D625C7C8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 11:39:10 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A8049C33-6FB2-6F35-7C07-F11470548482</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD509EC6-98FB-E04D-3587-F3908B877FE6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="id_curso_disciplina" id="12879D32-B32C-031D-56D3-E7D81E305AE2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:24:36 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="CURSO id curso" id="48EAACAB-4B2A-920A-B7A0-DBFF28D0ADC1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:27:44 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="DISCIPLINA id disciplina" id="D8A6CB31-0DA2-FE38-7044-D80DE8F212AF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:27:44 UTC</createdTime>
+<ownerDesignName>universidade</ownerDesignName>
+<engineerTo>
+<item key="6E521597-27A6-F0FC-8EE2-681975616CA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
